@@ -48,7 +48,7 @@ def main_classification_loop():
     # IP Webcam 앱에서 확인한 스트림 URL로 변경합니다.
     # 예: 'http://192.168.43.123:8080/video' (IP Webcam 앱에 표시된 URL 뒤에 /video 또는 /live 등을 붙여야 할 수 있습니다.)
     # 정확한 URL은 IP Webcam 앱 화면에 표시됩니다.
-    camera_stream_url = 'https://192.168.230.211:8080' # <-- 여기에 실제 URL 입력
+    camera_stream_url = 'http://192.168.230.211:8080/video' # <-- 여기에 실제 URL 입력
 
     cap = cv2.VideoCapture(camera_stream_url)
 
