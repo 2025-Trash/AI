@@ -167,7 +167,3 @@ def generate_labels_csv(dataset_dir, output_csv="labels.csv"):
 dataset_dir = "/path/to/dataset"
 generate_labels_csv(dataset_dir, "labels.csv")
 ```
-
-
-원하시면 제가 이 README에 **라벨 분포를 시각화하는 그래프 코드**도 추가해서 더 직관적으로 보여줄 수 있습니다.
-그렇게 하면 데이터 불균형 여부를 한눈에 확인 가능해요.
